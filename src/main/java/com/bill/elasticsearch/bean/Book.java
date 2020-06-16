@@ -1,10 +1,14 @@
 package com.bill.elasticsearch.bean;
 
+import org.springframework.data.elasticsearch.annotations.Document;
+
 import io.searchbox.annotations.JestId;
 
+
+@Document(indexName="bill",type="book")
 public class Book {
 	
-	@JestId
+//	@JestId
 	private Integer id;
 	private String author;
 	private String title;

@@ -141,4 +141,6 @@ Post _search 搜尋
 
 ### SpringData 融合ES
 
+1. spring.data.elasticsearch.cluster-name=elasticsearch (這個要看9200上面有)<br>spring.data.elasticsearch.cluster-nodes=192.168.99.100:9300 (這個是9300)
+
 

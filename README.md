@@ -133,9 +133,12 @@ Post _search 搜尋
 ```
 
 
-### 整合 springBoot
+### Jest 融合ES
 1. springBoot default使用兩種方式與ES溝通<br>一、Jest<br>二、SpringData ElasticSearch
 2. 先使用Jest 先把jpa dependency 註解 導入jset 依賴，版本參考ES版本 5版對5版 這邊我用5.3.3
+3. 在POJO primary key 要加 @JestId當主鍵
 
+
+### SpringData 融合ES
 
 

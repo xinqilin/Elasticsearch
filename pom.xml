@@ -21,11 +21,12 @@
 	</properties>
 
 	<dependencies>
+<!-- 	springData -->
 		<!-- <dependency> -->
 		<!-- <groupId>org.springframework.boot</groupId> -->
 		<!-- <artifactId>spring-boot-starter-data-elasticsearch</artifactId> -->
 		<!-- </dependency> -->
-		<!-- https://mvnrepository.com/artifact/io.searchbox/jest -->
+<!-- Jest -->
 		<dependency>
 			<groupId>io.searchbox</groupId>
 			<artifactId>jest</artifactId>
